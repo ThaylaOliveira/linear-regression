@@ -2,18 +2,17 @@ Red wine data set used in this report contains 4898 observations with 11 feature
 The dataset is available on the UCI machine learning repository (https://archive.ics.uci.edu/ml/datasets/wine+quality). 
 
 Input variables (based on physicochemical tests):
-1 - fixed acidity 
-2 - volatile acidity 
-3 - citric acid 
-4 - residual sugar 
-5 - chlorides 
-6 - free sulfur dioxide 
-7 - total sulfur dioxide 
-8 - density
-9 - pH
-10 - sulphates 
-11 - alcohol 
-Output variable (based on sensory data):
-12 - quality 
+- fixed acidity 
+- volatile acidity 
+- citric acid 
+- residual sugar 
+- chlorides 
+- free sulfur dioxide 
+- total sulfur dioxide 
+- density
+- pH
+- sulphates 
+- alcohol 
+- quality: target
 
 I’ll analyze and explore the Red Wine data set to understand and find the factors that are resposible for determining the quality of Wine.I’ll start by visualizing and understanding each variable, then I find the correlation between quality and other variables.Lastly, I’ll create Linear Regression model to predict the quality.
